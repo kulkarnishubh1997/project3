@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 3 page</title>
+</head>
+<body>
+    <h1>this is filter page</h1>
+        <h1>{{d}}</h1>
+        <h1>{{d|length}}</h1>
+        <h1>{{d|slice:'0:2:1'}}</h1>
+        <h1>{{d|cut:'i'}}</h1>
+        <h1>{{d|first}}</h1>
+        <h1>{{d|last}}</h1>
+        <h1>{{d.3}}</h1>
+        <h1>{{d.random}}</h1>
+        <h1>{{d.unordered_list}}</h1>
+
+        <h1>{{a|add:20}}</h1>
+        <h1>{{b|add:'string'}}</h1>
+        <h1>{{'hello'|upper}}</h1>
+        <h1>{{'HELLO'|lower}}</h1>
+        <h1>{{'HELLO world i love you india'|title}}</h1>
+        <h1>{{'hello world i love you india'|capfirst}}</h1>
+        <h1>{{'hello world i love you india'|cut:'love'}}</h1>
+        <h1>{{'hello world i love you india'|join:'+'}}</h1>
+        <h1>{{'hello world i love you india'|slice:'0:10:1'}}</h1>
+        <h1>{{'hello world i love you india'|length}}</h1>
+        <h1>{{'hello world i love you india'|wordcount}}</h1>
+        <h1>{{e|linenumbers}}</h1>
+        <h1>{{e|truncatewords:10}}</h1>
+</body>
+</html>
